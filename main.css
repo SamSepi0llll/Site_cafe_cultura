@@ -15,9 +15,7 @@ header{
 .carousel{
     margin-bottom: 50px;
 }
-body{
-    padding-bottom: 150px;
-}
+
 .card{
     margin-bottom: 16px;
     border-radius: 25px;
@@ -29,17 +27,17 @@ body{
 .nav-link{
     text-align: center;
 }
-section img{
+#about img{
     border-radius: 20px;
     margin-bottom: 16px;
 }
 @media screen and (max-width: 576px){
-    section img{
+    #about img{
         width: 300px;
     }
 }
 @media screen and (min-width:768px){
-    section img{
+    #about img{
         width: 600px;
     }
 }
@@ -66,4 +64,21 @@ textarea{
 }
 .alert-danger{
     display: none;
+}
+section{
+    padding-top: 75px;
+}
+.nav-link:hover{
+    background-color: #000;
+    color: #fff;
+}
+.nav-link{
+    margin-right: 8px;
+}
+footer{
+    background-color: rgb(241, 137, 1);
+    padding: 16px 0;
+    color: #fff;
+    text-align: center;
+    margin-top: 32px;
 }
