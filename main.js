@@ -32,7 +32,10 @@ $(document).ready(function(){
     })
     function validaNome (nomeComp){
         const nomeArray = nomeComp.split(' ')
-        return nomeArray.length >= 2;
+        if(nomeArray[1] !== ''){
+            return nomeArray.length >= 2;
+        }
+        
     }
     $('#nome').on('keyup', function(){
         let nome = document.querySelector('#nome').value
